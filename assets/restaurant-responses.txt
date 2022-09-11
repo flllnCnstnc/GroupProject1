@@ -1,0 +1,3691 @@
+{
+  "data": {
+    "AppPresentation_queryAppListV2": [
+      {
+        "__typename": "AppPresentation_QueryAppListResponse",
+        "impressions": [
+          {
+            "__typename": "AppPresentation_ImpressionLog",
+            "data": "noClientLog"
+          }
+        ],
+        "filters": {
+          "__typename": "AppPresentation_FilterResponse",
+          "showAllText": {
+            "__typename": "AppPresentation_LocalizedString",
+            "string": "Show 39 results",
+            "debugValueKey": null
+          },
+          "availableFilterGroups": [
+            {
+              "__typename": "AppPresentation_StandardFilterGroup",
+              "name": "Filters",
+              "groupType": "StandardFilterGroup",
+              "tooltip": null,
+              "filters": [
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_0\",\"lid\":293928,\"fn\":\"establishment\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_establishment",
+                  "title": "Establishment Type",
+                  "name": "establishment",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 35,
+                      "value": "10591",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Restaurants",
+                          "tagId": 10591
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Restaurants filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Restaurants filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "9900",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Coffee & Tea",
+                          "tagId": 9900
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Coffee & Tea filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Coffee & Tea filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "16556",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Quick Bites",
+                          "tagId": 16556
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Quick Bites filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Quick Bites filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "9909",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Dessert",
+                          "tagId": 9909
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Dessert filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Dessert filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_1\",\"lid\":293928,\"fn\":\"option\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_option",
+                  "title": "Restaurant Features",
+                  "name": "option",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 34,
+                      "value": "10602",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Reservations",
+                          "tagId": 10602
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Reservations filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Reservations filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 28,
+                      "value": "16547",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Table Service",
+                          "tagId": 16547
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Table Service filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Table Service filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 27,
+                      "value": "10870",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Free Wifi",
+                          "tagId": 10870
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Free Wifi filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Free Wifi filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 36,
+                      "value": "10852",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Seating",
+                          "tagId": 10852
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Seating filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Seating filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 29,
+                      "value": "10862",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Serves Alcohol",
+                          "tagId": 10862
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Serves Alcohol filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Serves Alcohol filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 28,
+                      "value": "10601",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Takeout",
+                          "tagId": 10601
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Takeout filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Takeout filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 23,
+                      "value": "11780",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Accepts Credit Cards",
+                          "tagId": 11780
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Accepts Credit Cards filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Accepts Credit Cards filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 19,
+                      "value": "10603",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Outdoor Seating",
+                          "tagId": 10603
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Outdoor Seating filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Outdoor Seating filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 18,
+                      "value": "10863",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Full Bar",
+                          "tagId": 10863
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Full Bar filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Full Bar filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 17,
+                      "value": "10864",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Wine and Beer",
+                          "tagId": 10864
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Wine and Beer filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Wine and Beer filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 16,
+                      "value": "10854",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Parking Available",
+                          "tagId": 10854
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Parking Available filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Parking Available filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 16,
+                      "value": "10860",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Highchairs Available",
+                          "tagId": 10860
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Highchairs Available filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Highchairs Available filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 15,
+                      "value": "10861",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Wheelchair Accessible",
+                          "tagId": 10861
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Wheelchair Accessible filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Wheelchair Accessible filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 15,
+                      "value": "10866",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Accepts Mastercard",
+                          "tagId": 10866
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Accepts Mastercard filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Accepts Mastercard filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 15,
+                      "value": "10867",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Accepts Visa",
+                          "tagId": 10867
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Accepts Visa filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Accepts Visa filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 13,
+                      "value": "10855",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Street Parking",
+                          "tagId": 10855
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Street Parking filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Street Parking filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 12,
+                      "value": "10868",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Digital Payments",
+                          "tagId": 10868
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Digital Payments filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Digital Payments filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 10,
+                      "value": "10600",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Delivery",
+                          "tagId": 10600
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Delivery filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Delivery filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 10,
+                      "value": "10865",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Accepts American Express",
+                          "tagId": 10865
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Accepts American Express filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Accepts American Express filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 8,
+                      "value": "10612",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Buffet",
+                          "tagId": 10612
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Buffet filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Buffet filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 8,
+                      "value": "10857",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Valet Parking",
+                          "tagId": 10857
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Valet Parking filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Valet Parking filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10858",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Free off-street parking",
+                          "tagId": 10858
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Free off-street parking filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Free off-street parking filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10869",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Cash Only",
+                          "tagId": 10869
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cash Only filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cash Only filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "10702",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Private Dining",
+                          "tagId": 10702
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Private Dining filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Private Dining filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "10859",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Television",
+                          "tagId": 10859
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Television filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Television filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "10871",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Accepts Discover",
+                          "tagId": 10871
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Accepts Discover filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Accepts Discover filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "21271",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Family style",
+                          "tagId": 21271
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Family style filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Family style filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "10856",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Validated Parking",
+                          "tagId": 10856
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Validated Parking filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Validated Parking filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "20990",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Waterfront",
+                          "tagId": 20990
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Waterfront filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Waterfront filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "20989",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Live Music",
+                          "tagId": 20989
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Live Music filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Live Music filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "20993",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Beach",
+                          "tagId": 20993
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Beach filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Beach filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "21907",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Gift Cards Available",
+                          "tagId": 21907
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Gift Cards Available filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Gift Cards Available filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20992",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Drive Thru",
+                          "tagId": 20992
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Drive Thru filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Drive Thru filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20996",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Dog Friendly",
+                          "tagId": 20996
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Dog Friendly filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Dog Friendly filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21379",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Non-smoking restaurants",
+                          "tagId": 21379
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Non-smoking restaurants filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Non-smoking restaurants filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_2\",\"lid\":293928,\"fn\":\"meal\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_meal",
+                  "title": "Meals",
+                  "name": "meal",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 39,
+                      "value": "10597",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Breakfast",
+                          "tagId": 10597
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Breakfast filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Breakfast filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 32,
+                      "value": "10606",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Brunch",
+                          "tagId": 10606
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Brunch filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Brunch filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 75,
+                      "value": "10598",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Lunch",
+                          "tagId": 10598
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lunch filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lunch filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 84,
+                      "value": "10599",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Dinner",
+                          "tagId": 10599
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Dinner filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Dinner filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_3\",\"lid\":293928,\"fn\":\"price\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_price",
+                  "title": "Price",
+                  "name": "price",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 45,
+                      "value": "10953",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_SimpleTextFilterValue",
+                        "text": "$"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cheap Eats filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cheap Eats filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 39,
+                      "value": "10955",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_SimpleTextFilterValue",
+                        "text": "$$ - $$$"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Mid-range filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Mid-range filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 8,
+                      "value": "10954",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_SimpleTextFilterValue",
+                        "text": "$$$$"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fine Dining filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fine Dining filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_4\",\"lid\":293928,\"fn\":\"openNow\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_openNow",
+                  "title": "Open Now",
+                  "name": "openNow",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": null,
+                      "value": "true",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_SimpleTextFilterValue",
+                        "text": "Open Now"
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Disable filter: Open Now",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Enable filter: Open Now",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_5\",\"lid\":293928,\"fn\":\"cuisine\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_cuisine",
+                  "title": "Cuisine Type",
+                  "name": "cuisine",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 22,
+                      "value": "10675",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Vietnamese",
+                          "tagId": 10675
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Vietnamese filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Vietnamese filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 16,
+                      "value": "10659",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Asian",
+                          "tagId": 10659
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Asian filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Asian filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 15,
+                      "value": "10642",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Cafe",
+                          "tagId": 10642
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cafe filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cafe filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 12,
+                      "value": "10643",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Seafood",
+                          "tagId": 10643
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Seafood filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Seafood filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 11,
+                      "value": "10654",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "European",
+                          "tagId": 10654
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove European filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply European filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "4617",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Italian",
+                          "tagId": 4617
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Italian filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Italian filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10648",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "International",
+                          "tagId": 10648
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove International filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply International filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 6,
+                      "value": "10641",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pizza",
+                          "tagId": 10641
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pizza filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pizza filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 5,
+                      "value": "10640",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Bar",
+                          "tagId": 10640
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Bar filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Bar filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "10345",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Steakhouse",
+                          "tagId": 10345
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Steakhouse filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Steakhouse filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "10651",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Barbecue",
+                          "tagId": 10651
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Barbecue filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Barbecue filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "5086",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "French",
+                          "tagId": 5086
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove French filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply French filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10646",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fast Food",
+                          "tagId": 10646
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fast Food filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fast Food filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10655",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Spanish",
+                          "tagId": 10655
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Spanish filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Spanish filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10671",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fusion",
+                          "tagId": 10671
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fusion filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fusion filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10676",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Diner",
+                          "tagId": 10676
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Diner filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Diner filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10679",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Healthy",
+                          "tagId": 10679
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Healthy filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Healthy filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "5473",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Japanese",
+                          "tagId": 5473
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Japanese filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Japanese filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10621",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Brew Pub",
+                          "tagId": 10621
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Brew Pub filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Brew Pub filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10628",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Swiss",
+                          "tagId": 10628
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Swiss filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Swiss filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10649",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Mediterranean",
+                          "tagId": 10649
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Mediterranean filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Mediterranean filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10660",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Thai",
+                          "tagId": 10660
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Thai filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Thai filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10666",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Deli",
+                          "tagId": 10666
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Deli filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Deli filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10670",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pub",
+                          "tagId": 10670
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pub filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pub filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10686",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Street Food",
+                          "tagId": 10686
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Street Food filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Street Food filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10699",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Canadian",
+                          "tagId": 10699
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Canadian filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Canadian filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10746",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Central European",
+                          "tagId": 10746
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Central European filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Central European filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "22047",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Indigenous",
+                          "tagId": 22047
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Indigenous filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Indigenous filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_6\",\"lid\":293928,\"fn\":\"dish\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_dish",
+                  "title": "Dishes",
+                  "name": "dish",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 12,
+                      "value": "16554",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Salad",
+                          "tagId": 16554
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Salad filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Salad filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 9,
+                      "value": "20752",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Beef",
+                          "tagId": 20752
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Beef filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Beef filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 8,
+                      "value": "21324",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fish",
+                          "tagId": 21324
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fish filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fish filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10678",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pasta",
+                          "tagId": 10678
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pasta filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pasta filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "21239",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pesto",
+                          "tagId": 21239
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pesto filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pesto filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 6,
+                      "value": "10907",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Burger",
+                          "tagId": 10907
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Burger filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Burger filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 6,
+                      "value": "20699",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Prawns",
+                          "tagId": 20699
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Prawns filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Prawns filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 6,
+                      "value": "21275",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Cakes",
+                          "tagId": 21275
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cakes filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cakes filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 5,
+                      "value": "9911",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Juice & Smoothies",
+                          "tagId": 9911
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Juice & Smoothies filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Juice & Smoothies filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 5,
+                      "value": "10645",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Noodle",
+                          "tagId": 10645
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Noodle filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Noodle filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 5,
+                      "value": "21326",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pork",
+                          "tagId": 21326
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pork filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pork filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "19953",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pho",
+                          "tagId": 19953
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pho filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pho filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "10937",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Shrimp",
+                          "tagId": 10937
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Shrimp filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Shrimp filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "20181",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Curry",
+                          "tagId": 20181
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Curry filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Curry filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 3,
+                      "value": "20547",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Salmon",
+                          "tagId": 20547
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Salmon filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Salmon filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10647",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Sandwiches",
+                          "tagId": 10647
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Sandwiches filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Sandwiches filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10909",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Hot Pot",
+                          "tagId": 10909
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Hot Pot filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Hot Pot filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10915",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Lobster",
+                          "tagId": 10915
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lobster filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lobster filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10922",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Oyster",
+                          "tagId": 10922
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Oyster filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Oyster filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "10942",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Tapas",
+                          "tagId": 10942
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Tapas filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Tapas filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "16555",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Pancakes",
+                          "tagId": 16555
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Pancakes filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Pancakes filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "20029",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Chili",
+                          "tagId": 20029
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Chili filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Chili filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "20320",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Carbonara",
+                          "tagId": 20320
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Carbonara filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Carbonara filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "20325",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Bolognese",
+                          "tagId": 20325
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Bolognese filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Bolognese filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "21174",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Lamb",
+                          "tagId": 21174
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lamb filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lamb filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 2,
+                      "value": "21215",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Bruschette",
+                          "tagId": 21215
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Bruschette filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Bruschette filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10878",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Burrito",
+                          "tagId": 10878
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Burrito filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Burrito filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10885",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Cheesecake",
+                          "tagId": 10885
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cheesecake filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cheesecake filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10889",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Chilli Chicken",
+                          "tagId": 10889
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Chilli Chicken filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Chilli Chicken filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10893",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Crab",
+                          "tagId": 10893
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Crab filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Crab filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10914",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Lasagne",
+                          "tagId": 10914
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Lasagne filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Lasagne filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10921",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Omelette",
+                          "tagId": 10921
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Omelette filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Omelette filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10924",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Paella",
+                          "tagId": 10924
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Paella filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Paella filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10930",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Poutine",
+                          "tagId": 10930
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Poutine filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Poutine filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10935",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Schnitzel",
+                          "tagId": 10935
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Schnitzel filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Schnitzel filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "10944",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Tortillas",
+                          "tagId": 10944
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Tortillas filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Tortillas filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "16553",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fish Taco",
+                          "tagId": 16553
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fish Taco filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fish Taco filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "19954",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Tacos",
+                          "tagId": 19954
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Tacos filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Tacos filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "19959",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Eggs Benedict",
+                          "tagId": 19959
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Eggs Benedict filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Eggs Benedict filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20034",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fajitas",
+                          "tagId": 20034
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fajitas filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fajitas filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20045",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Waffles",
+                          "tagId": 20045
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Waffles filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Waffles filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20163",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Club Sandwich",
+                          "tagId": 20163
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Club Sandwich filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Club Sandwich filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20312",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Risotto",
+                          "tagId": 20312
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Risotto filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Risotto filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20317",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Crepes",
+                          "tagId": 20317
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Crepes filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Crepes filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20318",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Meatballs",
+                          "tagId": 20318
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Meatballs filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Meatballs filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20319",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Tagliatelle",
+                          "tagId": 20319
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Tagliatelle filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Tagliatelle filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20476",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Seafood Paella",
+                          "tagId": 20476
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Seafood Paella filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Seafood Paella filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20483",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Eggplant",
+                          "tagId": 20483
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Eggplant filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Eggplant filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20532",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Hummus",
+                          "tagId": 20532
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Hummus filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Hummus filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "20552",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Tuna",
+                          "tagId": 20552
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Tuna filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Tuna filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21022",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Duck",
+                          "tagId": 21022
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Duck filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Duck filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21055",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Raclette",
+                          "tagId": 21055
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Raclette filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Raclette filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21285",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Fried rice",
+                          "tagId": 21285
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Fried rice filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Fried rice filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21293",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Cheese fondue",
+                          "tagId": 21293
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Cheese fondue filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Cheese fondue filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "21320",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Sashimi",
+                          "tagId": 21320
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Sashimi filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Sashimi filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_EnumeratedValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_7\",\"lid\":293928,\"fn\":\"minRating\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSEnumeratedValueFilter_minRating",
+                  "name": "minRating",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "title": "Traveler rating",
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 6,
+                      "value": "50",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_BubbleRatingFilterValue",
+                        "minimumRatingValue": 50
+                      },
+                      "selectedAccessibilityString": null,
+                      "unselectedAccessibilityString": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 39,
+                      "value": "40",
+                      "isSelected": true,
+                      "object": {
+                        "__typename": "AppPresentation_BubbleRatingFilterValue",
+                        "minimumRatingValue": 40
+                      },
+                      "selectedAccessibilityString": null,
+                      "unselectedAccessibilityString": null
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 39,
+                      "value": "30",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_BubbleRatingFilterValue",
+                        "minimumRatingValue": 30
+                      },
+                      "selectedAccessibilityString": null,
+                      "unselectedAccessibilityString": null
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_8\",\"lid\":293928,\"fn\":\"diet\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_diet",
+                  "title": "Dietary Restrictions",
+                  "name": "diet",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 21,
+                      "value": "10665",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Vegetarian Friendly",
+                          "tagId": 10665
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Vegetarian Friendly filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Vegetarian Friendly filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 14,
+                      "value": "10697",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Vegan Options",
+                          "tagId": 10697
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Vegan Options filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Vegan Options filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 11,
+                      "value": "10992",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Gluten Free Options",
+                          "tagId": 10992
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Gluten Free Options filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Gluten Free Options filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__typename": "AppPresentation_MultiValueFilter",
+                  "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_filterGroups_0_9\",\"lid\":293928,\"fn\":\"style\",\"sn\":\"List\"}",
+                  "trackingTitle": "APSMultiValueFilter_style",
+                  "title": "Good for",
+                  "name": "style",
+                  "surfaces": [
+                    "LIST",
+                    "MAP"
+                  ],
+                  "tooltip": null,
+                  "values": [
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 29,
+                      "value": "10604",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Families with children",
+                          "tagId": 10604
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Families with children filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Families with children filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 18,
+                      "value": "11777",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Kids",
+                          "tagId": 11777
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Kids filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Kids filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 11,
+                      "value": "10609",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Large groups",
+                          "tagId": 10609
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Large groups filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Large groups filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 11,
+                      "value": "10614",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Romantic",
+                          "tagId": 10614
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Romantic filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Romantic filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 10,
+                      "value": "10607",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Special occasions",
+                          "tagId": 10607
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Special occasions filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Special occasions filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10605",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Business meetings",
+                          "tagId": 10605
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Business meetings filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Business meetings filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 7,
+                      "value": "10610",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Scenic view",
+                          "tagId": 10610
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Scenic view filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Scenic view filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 5,
+                      "value": "10613",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Local cuisine",
+                          "tagId": 10613
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Local cuisine filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Local cuisine filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 4,
+                      "value": "10608",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Bar scene",
+                          "tagId": 10608
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Bar scene filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Bar scene filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "12504",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Hot New Restaurants",
+                          "tagId": 12504
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Hot New Restaurants filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Hot New Restaurants filter ",
+                        "debugValueKey": null
+                      }
+                    },
+                    {
+                      "__typename": "AppPresentation_EnumeratedValueWithCount",
+                      "count": 1,
+                      "value": "16550",
+                      "isSelected": false,
+                      "object": {
+                        "__typename": "AppPresentation_TagFilterValue",
+                        "tag": {
+                          "__typename": "Tag_TagInformationV2",
+                          "localizedName": "Hidden Gems",
+                          "tagId": 16550
+                        }
+                      },
+                      "selectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Remove Hidden Gems filter",
+                        "debugValueKey": null
+                      },
+                      "unselectedAccessibilityString": {
+                        "__typename": "AppPresentation_LocalizedString",
+                        "string": "Apply Hidden Gems filter ",
+                        "debugValueKey": null
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "availableSorts": [
+          {
+            "__typename": "AppPresentation_Sort",
+            "isAscending": false,
+            "isSelected": false,
+            "name": "POPULARITY",
+            "surfaces": [
+              "LIST"
+            ],
+            "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_sorts_0\",\"lid\":293928,\"sortn\":\"POPULARITY\",\"sn\":\"List\"}",
+            "trackingTitle": "WrapperSortOption_POPULARITY",
+            "title": {
+              "__typename": "AppPresentation_LocalizedString",
+              "string": "Traveler ranking",
+              "debugValueKey": null
+            },
+            "tooltipV2": null
+          },
+          {
+            "__typename": "AppPresentation_Sort",
+            "isAscending": false,
+            "isSelected": true,
+            "name": "RELEVANCE",
+            "surfaces": [
+              "LIST"
+            ],
+            "trackingKey": "{\"ik\":\"3ff883e3-47de-40f8-ae43-7a9617ea4c07_sorts_1\",\"lid\":293928,\"sortn\":\"RELEVANCE\",\"sn\":\"List\"}",
+            "trackingTitle": "WrapperSortOption_RELEVANCE",
+            "title": {
+              "__typename": "AppPresentation_LocalizedString",
+              "string": "Relevance",
+              "debugValueKey": null
+            },
+            "tooltipV2": null
+          }
+        ],
+        "status": {
+          "__typename": "AppPresentation_QueryResponseStatus",
+          "message": null,
+          "success": true,
+          "pollingStatus": null
+        }
+      }
+    ]
+  }
+}
