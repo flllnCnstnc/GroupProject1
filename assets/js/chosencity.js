@@ -12,52 +12,24 @@
  */
 var city = "Denver"
 var restaurantsBlock = $('restaurants-block');
+var requestUrl = '';
 
 
- $( document ).ready(function() {
-     $(document).prop('title', "Welcome to " + city);
-     var restaurantsTitle = $('#restaurants-title').text("Places to Eat in " + city);
 
+$(document).prop('title', "Welcome to " + city);
+var restaurantsTitle = $('#restaurants-title').text("Places to Eat in " + city);
 
-     function getGeoID() {
-         const options = {
-             method: 'GET',
-             headers: {
-                 'X-RapidAPI-Key': '416439bb4fmshfef4ac0068641dap1bc56fjsn3c339a781461',
-                 'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
-             }
-         };
+const options = {
+	method: 'POST',
+	headers: {
+		'content-type': 'application/json',
+		'X-RapidAPI-Key': '1b5f8f1091mshbc2582aab1d8be2p14f00fjsnce3839947530',
+		'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+	},
+	body: '{"geoId":293928,"partySize":2,"reservationTime":"2022-03-07T20:00","sort":"POPULARITY","sortOrder":"desc","filters":[{"id":"establishment","value":["10591"]}],"boundingBox":{"northEastCorner":{"latitude":12.248278039408776,"longitude":109.1981618106365},"southWestCorner":{"latitude":12.243407232845051,"longitude":109.1921640560031}},"updateToken":""}'
+};
 
-         fetch('https://travel-advisor.p.rapidapi.com/locations/v2/auto-complete?query=' + city + '%2C%20co&lang=en_US&units=km', options)
-            .then((response) => response.json())
-             .then((data) => {
-                 console.log(data);
-         })
-         .catch(console.error);
-
-     };
-
-
-     function getrestList() {
-         const options = {
-             method: 'POST',
-             headers: {
-                 'content-type': 'application/json',
-                 'X-RapidAPI-Key': '416439bb4fmshfef4ac0068641dap1bc56fjsn3c339a781461',
-                 'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
-             },
-             body: '{"geoId":33388,"partySize":2,"reservationTime":"2022-03-07T20:00","sort":"POPULARITY","sortOrder":"desc","filters":[{"id":"establishment","value":["10591"]}],"updateToken":""}'
-         };
-
-         fetch('https://travel-advisor.p.rapidapi.com/restaurants/v2/list?currency=USD&units=km&lang=en_US', options)
-             .then((response) => response.json())
-             .then((data) => {
-                 console.log(data);
-             })
-             .catch(console.error);
-     };
-
-     getGeoID();
-     getrestList();
-
- });
+fetch('https://travel-advisor.p.rapidapi.com/restaurants/v2/list?currency=USD&units=km&lang=en_US', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
