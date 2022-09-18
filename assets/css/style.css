@@ -8,12 +8,6 @@ body {
     margin: 0;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-
 header {
     display: flex;
     justify-content: center;
@@ -25,9 +19,13 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: center;
-
 }
 
 .cityBlock {
     flex-basis: 50%;
+    display: grid;
+}
+
+.cityBlock > div {
+    height: 34vh;
 }

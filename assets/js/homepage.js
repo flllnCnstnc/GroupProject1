@@ -30,7 +30,7 @@ var fetchImages = function (searchTerm) {
                 var imgURL = hit.largeImageURL;
                 var imgUser = hit.user
                 var pageURL = hit.pageURL
-                var newImg = $('<li></li>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
+                var newImg = $('<div></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
                 thisBlock.append(newImg);
                 a++;
                 countFunction(a);
@@ -41,7 +41,7 @@ var fetchImages = function (searchTerm) {
 };
 
 var countFunction = function(a) {
-    console.log(a);
+    console.log("Pulling slide: " + a);
     if (a === 20) {
         showSlides()
     }
