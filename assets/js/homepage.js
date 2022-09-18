@@ -26,13 +26,18 @@ var fetchImages = function(searchTerm) {
     if (parseInt(data.totalHits) > 0)
         $.each(data.hits, function (i, hit) {
             var imgURL = hit.largeImageURL
+            var imgUser = hit.user;
+            var imgPage = hit.pageURL;
             console.log(imgURL);
-            thisBlock.append('<div class="slide"><img src="' + imgURL + '"style="width:100%"></div>')
+            console.log(imgUser);
+            thisBlock.append('<img src="' + imgURL + '" alt="Photo by ' + imgUser + ': '+ imgPage +'"style="width:100%"></div>')
     });
     else
         console.log('No hits');
     });
 };
+
+
 
 
 $(".cityBlock").on('click', function (event) {
