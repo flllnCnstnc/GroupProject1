@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 var fetchImages = function(searchTerm) {
     var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm) + "&per_page=5";
-    var thisBlock = $('#' + searchTerm);
+    var thisBlock = $('#' + searchTerm + '> ul');
     $.getJSON(URL, function (data) {
         console.log(URL);
     if (parseInt(data.totalHits) > 0)
@@ -28,7 +28,7 @@ var fetchImages = function(searchTerm) {
             var imgURL = hit.largeImageURL;
             var imgUser = hit.user
             var pageURL = hit.pageURL
-            var newImg = $('<div></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
+            var newImg = $('<li></li>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
             thisBlock.append(newImg)
         });
     else
