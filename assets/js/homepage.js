@@ -29,7 +29,7 @@ var fetchImages = function(searchTerm) {
             var imgURL = hit.largeImageURL;
             var imgUser = hit.user
             var pageURL = hit.pageURL
-            var entry = '<img class ="' + searchTerm + '" src="' + imgURL + '" alt="Photo by ' + imgUser + ': ' + pageURL + '" style="width:100%">'
+            var entry = { "imgURL": imgURL, "aria": "Photo by " + imgUser + ": " + pageURL }
             arrImg['-'+searchTerm].push(entry);
             console.log(arrImg['-' + searchTerm]);
             localStorage.setItem("arrImg-"+ searchTerm + "", JSON.stringify(arrImg['-' + searchTerm]));

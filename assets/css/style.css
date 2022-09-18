@@ -3,6 +3,11 @@
  * Last Updated Sept 17 2022
 **/
 
+/*Make images extend to edge of screen*/
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -13,7 +18,7 @@ header {
 .cityContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 li {
@@ -22,5 +27,7 @@ li {
 
 .cityBlock {
     flex: 1;
-
+    padding: 5rem;
+    text-align: center;
+    color: white;
 }
