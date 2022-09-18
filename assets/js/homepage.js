@@ -9,13 +9,26 @@ var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
 
 // Fetches pictures for each given city search term
 
+$(document).ready(function () {
+    $('.cityBlock').each(function () {
+        var searchTerm = this.id;
+        console.log("Search images: " + searchTerm);
+        fetchImages(searchTerm);
+    })
+});
 
-function fetchImages(searchTerm) {
-    var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm);
+
+var fetchImages = function(searchTerm) {
+    var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm) +"&per_page=5";
+    var thisBlock = $('#'+searchTerm);
     $.getJSON(URL, function (data) {
         console.log(URL);
     if (parseInt(data.totalHits) > 0)
-        $.each(data.hits, function(i, hit){ console.log(hit.pageURL); });
+        $.each(data.hits, function (i, hit) {
+            var imgURL = hit.largeImageURL
+            console.log(imgURL);
+            thisBlock.append('<div class="slide"><img src="' + imgURL + '"style="width:100%"></div>')
+    });
     else
         console.log('No hits');
     });
@@ -24,6 +37,7 @@ function fetchImages(searchTerm) {
 
 $(".cityBlock").on('click', function (event) {
     var city = this.id;
+    console.log(city);
     localStorage.setItem("currentCity", JSON.stringify(this.id));
     event.preventDefault();
     location.href = "chosencity.html"
