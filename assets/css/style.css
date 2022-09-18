@@ -13,6 +13,7 @@ header {
 .cityContainer {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 li {
@@ -20,5 +21,6 @@ li {
 }
 
 .cityBlock {
-    position: relative;
+    flex: 1;
+
 }

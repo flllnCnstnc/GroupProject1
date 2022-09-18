@@ -39,10 +39,13 @@ var fetchImages = function(searchTerm) {
     });
 };
 
-var showShow = function () {
-    
+var slides1 = JSON.parse(localStorage.getItem('arrImg-chicago-illinois'));
+var slides2 = JSON.parse(localStorage.getItem('arrImg-boulder-colorado'));
+var slides3 = JSON.parse(localStorage.getItem('arrImg-houston-texas'));
+var slides4 = JSON.parse(localStorage.getItem('arrImg-los-angeles-california'));
 
-}
+
+
 
 $(".cityBlock").on('click', function (event) {
     var city = this.id;
