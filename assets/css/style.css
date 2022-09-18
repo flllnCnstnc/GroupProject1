@@ -16,18 +16,19 @@ header {
 }
 
 .cityContainer {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-li {
-    list-style: none;
-}
+};
 
 .cityBlock {
     flex: 1;
-    padding: 5rem;
     text-align: center;
     color: white;
+}
+
+.cityBlock > div {
+    height: 50vh;
+    width: 50rem;;
 }
