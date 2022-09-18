@@ -10,12 +10,12 @@ header {
     text-align: center;
 }
 
-.carouselContainer {
+.cityContainer {
     display: flex;
     flex-direction: row;
 }
 
-.carouselContainer div {
+.cityContainer div {
     flex: 1;
     display:flex;
     justify-content:center;
