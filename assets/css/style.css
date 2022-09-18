@@ -1,4 +1,23 @@
 /**
- * Arielle's Edits for Restaurant Edit
- * Last Updated Sept 11 2022
+ * Arielle's Edits for Home Page
+ * Last Updated Sept 17 2022
 **/
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.carouselContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.carouselContainer div {
+    flex: 1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
