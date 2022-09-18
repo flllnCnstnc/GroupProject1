@@ -16,4 +16,8 @@ window.addEventListener('load', () => {
             .then (response => {
                 return response.json();
              })
+             
+             .then (data => {
+                console.log (data);
+                const { temp} = data.current;
     
