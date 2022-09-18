@@ -21,11 +21,18 @@ window.addEventListener('load', () => {
                 console.log (data);
                 const { temp} = data.current;
 
-                
+
             //set some elements from the api
             var iconImg = `https://openweathermap.org/img/w/${data.current.weather[0].icon}.png`;
             tempDegree.textContent= temp;
             icon.setAttribute("src", iconImg)
             tempDescription.textContent= data.current.weather[0].main
             loctionTimezone.textContent= data.timezone;
+        });
+
+    });
+}
+});
+
+
     
