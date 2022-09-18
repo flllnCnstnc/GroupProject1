@@ -3,13 +3,11 @@
  * Last Updated by Arielle Sept 17 2022
 **/
 
-
+// TODO FUTURE: Hide API key in a .env file for security
 var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
 
 
 // Fetches pictures for each given city search term
-
-var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
 
 
 function fetchImages(searchTerm) {
@@ -24,9 +22,9 @@ function fetchImages(searchTerm) {
 };
 
 
-
-$(".cityBlock").on("click", function (city) {
+$(".cityBlock").on('click', function (event) {
     var city = this.id;
-    console.log(city);
-    fetchImages(city);
+    localStorage.setItem("currentCity", JSON.stringify(this.id));
+    event.preventDefault();
+    location.href = "chosencity.html"
 });
