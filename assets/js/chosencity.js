@@ -10,4 +10,6 @@ window.addEventListener('load', () => {
         navigator.geolocation.getCurrentPosition(position => {
             long = position.coords.longitude;
             lat = position.coords.latitude;
+
+            const api = "https://api.openweathermap.org/data/3.0/onecall?lat=41.885&lon=-87.626&units=imperial&exclude=currently,daily&appid=b1bfaa8aef920555a5427b626bedb8c9"
     
