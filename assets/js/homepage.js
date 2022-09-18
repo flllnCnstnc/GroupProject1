@@ -5,6 +5,7 @@
 
 // TODO FUTURE: Hide API key in a .env file for security
 var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
+var arrImg = {};
 
 
 // Fetches pictures for each given city search term
@@ -14,13 +15,13 @@ $(document).ready(function () {
         var searchTerm = this.id;
         console.log("Search images: " + searchTerm);
         fetchImages(searchTerm);
+
     })
 });
 
-
 var fetchImages = function(searchTerm) {
     var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm) +"&per_page=5";
-    var thisBlock = $('#'+searchTerm+' > ul');
+    arrImg['-'+searchTerm] = [];
     $.getJSON(URL, function (data) {
         console.log(URL);
     if (parseInt(data.totalHits) > 0)
@@ -28,16 +29,20 @@ var fetchImages = function(searchTerm) {
             var imgURL = hit.largeImageURL;
             var imgUser = hit.user
             var pageURL = hit.pageURL
-            console.log(imgURL);
-            console.log(imgUser);
-            console.log(pageURL);
-            thisBlock.append('<li class ="' + searchTerm + '" ><img src="' + imgURL + '" alt="Photo by ' + imgUser + ': ' + pageURL + '" style="width:100%"></li>')
-    });
+            var entry = '<img class ="' + searchTerm + '" src="' + imgURL + '" alt="Photo by ' + imgUser + ': ' + pageURL + '" style="width:100%">'
+            arrImg['-'+searchTerm].push(entry);
+            console.log(arrImg['-' + searchTerm]);
+            localStorage.setItem("arrImg-"+ searchTerm + "", JSON.stringify(arrImg['-' + searchTerm]));
+        });
     else
         console.log('No hits');
     });
 };
 
+var showShow = function () {
+    
+
+}
 
 $(".cityBlock").on('click', function (event) {
     var city = this.id;
@@ -46,47 +51,3 @@ $(".cityBlock").on('click', function (event) {
     event.preventDefault();
     location.href = "chosencity.html"
 });
-
-$(document).ready(function(){
-
-    $('#slider1>li:gt(0)').hide();
-      setInterval(function() {
-        $('#slider1 > li:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slider1');
-      }, 2000);
-
-      $('#slider2>li:gt(0)').hide();
-      setInterval(function() {
-        $('#slider2 > li:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slider2');
-      }, 2000);
-
-      $('#slider3>li:gt(0)').hide();
-      setInterval(function() {
-        $('#slider3 > li:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slider3');
-      }, 2000);
-
-      $('#slider4>li:gt(0)').hide();
-      setInterval(function() {
-        $('#slider4 > li:first')
-          .fadeOut(1000)
-          .next()
-          .fadeIn(1000)
-          .end()
-          .appendTo('#slider4');
-    }, 2000);
-
-  });

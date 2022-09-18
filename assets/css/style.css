@@ -15,35 +15,10 @@ header {
     flex-direction: row;
 }
 
-#slider{
-    margin:50px auto;
-    width:600px;
-    height:400px;
-    padding:5px;
-    box-shadow: 0 0 20px rgba(0,0,0,1);
-    position:relative;
+li {
+    list-style: none;
 }
 
-#slider1,
-#slider2,
-#slider3,
-#slider4 {
-    margin:50px auto;
-    width:600px;
-    height:400px;
-    padding:5px;
-    box-shadow: 0 0 20px rgba(0,0,0,1);
-    position:relative;
-}
-
-.boulder-colorado,
-.houston-texas,
-.chicago-illinois,
-.los-angeles-california {
-    list-style:none;
-    position:absolute;
-    top:5px;
-    left:5px;
-    right:5px;
-    bottom:5px;
+.cityBlock {
+    position: relative;
 }
