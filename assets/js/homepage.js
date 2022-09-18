@@ -20,24 +20,23 @@ $(document).ready(function () {
 
 var fetchImages = function(searchTerm) {
     var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm) +"&per_page=5";
-    var thisBlock = $('#'+searchTerm);
+    var thisBlock = $('#'+searchTerm+' > ul');
     $.getJSON(URL, function (data) {
         console.log(URL);
     if (parseInt(data.totalHits) > 0)
         $.each(data.hits, function (i, hit) {
-            var imgURL = hit.largeImageURL
-            var imgUser = hit.user;
-            var imgPage = hit.pageURL;
+            var imgURL = hit.largeImageURL;
+            var imgUser = hit.user
+            var pageURL = hit.pageURL
             console.log(imgURL);
             console.log(imgUser);
-            thisBlock.append('<img src="' + imgURL + '" alt="Photo by ' + imgUser + ': '+ imgPage +'"style="width:100%"></div>')
+            console.log(pageURL);
+            thisBlock.append('<li class ="' + searchTerm + '" ><img src="' + imgURL + '" alt="Photo by ' + imgUser + ': ' + pageURL + '" style="width:100%"></li>')
     });
     else
         console.log('No hits');
     });
 };
-
-
 
 
 $(".cityBlock").on('click', function (event) {
@@ -47,3 +46,47 @@ $(".cityBlock").on('click', function (event) {
     event.preventDefault();
     location.href = "chosencity.html"
 });
+
+$(document).ready(function(){
+
+    $('#slider1>li:gt(0)').hide();
+      setInterval(function() {
+        $('#slider1 > li:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slider1');
+      }, 2000);
+
+      $('#slider2>li:gt(0)').hide();
+      setInterval(function() {
+        $('#slider2 > li:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slider2');
+      }, 2000);
+
+      $('#slider3>li:gt(0)').hide();
+      setInterval(function() {
+        $('#slider3 > li:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slider3');
+      }, 2000);
+
+      $('#slider4>li:gt(0)').hide();
+      setInterval(function() {
+        $('#slider4 > li:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slider4');
+    }, 2000);
+
+  });
