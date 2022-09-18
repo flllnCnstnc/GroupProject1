@@ -5,3 +5,9 @@ window.addEventListener('load', () => {
     let tempDegree = document.querySelector ('.temp-degree');
     let loctionTimezone = document.querySelector ('.location-timezone');
     let icon = document.querySelector ('.icon');
+    
+    if (navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(position => {
+            long = position.coords.longitude;
+            lat = position.coords.latitude;
+    
