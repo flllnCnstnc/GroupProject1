@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.weather-widget{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
 body {
     height: 100vh;
     display: flex;
