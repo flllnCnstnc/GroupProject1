@@ -7,13 +7,18 @@
 var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
 var a = 0;
 
+var boulder = [];
+var houston = [];
+var chicago = [];
+var losAngeles = [];
+
 
 // Fetches pictures for each given city search term
 
 
 
 $(document).ready(function () {
-    $('.cityBlock').each(function () {
+    $('.slideShow').each(function () {
         var searchTerm = this.id;
         console.log("Search images: " + searchTerm);
         fetchImages(searchTerm);
@@ -30,9 +35,30 @@ var fetchImages = function (searchTerm) {
                 var imgURL = hit.largeImageURL;
                 var imgUser = hit.user
                 var pageURL = hit.pageURL
-                var newImg = $('<div></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
-                thisBlock.append(newImg);
+                var newImg = {
+                    "aria-label": "Photo by: " + imgUser + " " + pageURL + "",
+                    "imgURL": imgURL
+                }
                 a++;
+
+                if (searchTerm === 'boulder-colorado') {
+                    boulder.push(newImg);
+                }
+
+                if (searchTerm === 'houston-texas') {
+                    houston.push(newImg);
+
+                }
+
+                if (searchTerm === 'chicago-illinois') {
+                    chicago.push(newImg);
+
+                }
+
+                if (searchTerm === 'los_angeles-california') {
+                    losAngeles.push(newImg);
+                }
+
                 countFunction(a);
         })
     else
@@ -46,12 +72,11 @@ var countFunction = function(a) {
     console.log("Pulling slide: " + a);
     if (a === 20) {
         console.log("All the slides have been pulled")
-        showSlides();
+        console.log(boulder);
+        console.log(houston);
+        console.log(chicago);
+        console.log(losAngeles);
     }
-}
-
-function showSlides() {
-    console.log("slides");
 }
 
 

@@ -1,0 +1,31 @@
+.slideDiv {
+    background-color: #378B53;
+    height: 34vh;
+  }
+
+  .slide {
+    display: none;
+    transition: 4s;
+  }
+
+  .visible {
+    display: block;
+    width: 100%;
+    opacity: 100;
+  }
+
+  .visiblePaused {
+    display: block;
+    width: 100%;
+    opacity: 100;
+  }
+
+  .slideShow {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .dot {
+    display: inline-block;
+    cursor: pointer;
+  }

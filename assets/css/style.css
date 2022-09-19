@@ -21,20 +21,12 @@ header {
     text-align: center;
 }
 
-.cityBlock {
+.slideShow {
     flex-basis: 50%;
 }
 
 /* By default before slideshow function kicks in, all blocks are set to display: none*/
-.cityBlock > div {
+.slideShow > div {
     height: 40vh;
     background-position: center;
-}
-
-.hidden {
-    display: none;
-}
-
-.active {
-    display: block;
 }
