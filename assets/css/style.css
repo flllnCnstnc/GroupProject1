@@ -1,0 +1,84 @@
+/**
+ * Arielle's Edits for Home Page
+ * Last Updated Sept 17 2022
+**/
+
+/*Make images extend to edge of screen*/
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 7vh;
+    margin: 2rem;
+    color: rgb(77, 77, 77);
+}
+
+.body {
+    margin: 0;
+}
+
+.cityContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideShow {
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.slideShow:hover {
+    cursor: grab;
+}
+
+.slideDiv {
+    display: flex;
+    height: 37vh;
+    background-position: center;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    display: hidden;
+    opacity: 0;
+    transition: opacity .7s ease;
+}
+
+.cityTitle > h2 {
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    text-shadow: 2px 2px #222222;
+}
+
+.visible {
+    display: flex;
+    opacity: 100;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 100%;
+    margin: 0;
+    background: #222;
+    color: #fff;
+}
