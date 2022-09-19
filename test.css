@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .slideDiv {
     background-color: #378B53;
     height: 34vh;
@@ -20,12 +24,12 @@
     opacity: 100;
   }
 
-  .slideShow {
-    width: 50%;
-    display: inline-block;
+  .rowContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
 
-  .dot {
-    display: inline-block;
-    cursor: pointer;
+  .slideShow {
+    flex-basis: 50%;
   }

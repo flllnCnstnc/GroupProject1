@@ -1,5 +1,4 @@
 var slideShows = document.getElementsByClassName("slideShow");
-var dots = document.getElementsByClassName("dot");
 var slideShow1 = document.getElementById("slideShow1");
 var slideShow1Timer = slideShow1.getAttribute("data-slide-time")
 var slideShow2 = document.getElementById("slideShow2");
@@ -30,54 +29,23 @@ function addListener(element, listenFor, functionToCall) {
   }
 }
 
-function addDots() {
-  for (var i = 0; i < slideShows.length; i++) {
-    var slides = slideShows[i].getElementsByClassName("slide");
-    for (var j = 0; j < slides.length; j++) {
-      var dot = document.createElement("div");
-      dot.classList.add("dot");
-      dot.innerHTML = "O";
-      slideShows[i].appendChild(dot);
-    }
-  }
-}
-
-addDots();
-
 function nextSlide(ele) {
   var elem = document.getElementById(ele);
   var currentSlideHere = elem.getElementsByClassName("visible");
   if (currentSlideHere[0]) {
-    var dots = elem.getElementsByClassName("dot");
     var slides = elem.getElementsByClassName("slide");
     var slidesArray = Array.prototype.slice.call(slides);
     var here = slidesArray.indexOf(currentSlideHere[0]);
-    dots[here].style.backgroundColor = "white";
     slides[here].classList.remove("visible");
     here += 1;
     if (here >= slides.length) {
       here = 0;
     }
     slides[here].classList.add("visible");
-    dots[here].style.backgroundColor = "grey";
   }
 }
 
-function changeImageDot() {
-  var slides = this.parentElement.getElementsByClassName("slide");
-  var dotsHere = this.parentElement.getElementsByClassName("dot");
-  var dotsArray = Array.prototype.slice.call(dotsHere);
-  var chosenSlide = dotsArray.indexOf(this);
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].classList.remove("visible");
-    slides[i].classList.remove("visiblePaused");
-    dotsHere[i].style.backgroundColor = "white";
-  }
-  this.style.backgroundColor = "grey";
-  slides[chosenSlide].classList.add("visible");
-}
 
-addListener(dots, "click", changeImageDot);
 
 addListener(slideShows, "mouseover", function() {
   var lemon = this.getElementsByClassName("visible");
