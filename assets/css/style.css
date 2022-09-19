@@ -6,13 +6,21 @@
 /*Make images extend to edge of screen*/
 body {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     display: flex;
+    margin: 1rem 0 1rem 0;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+header > h1 {
+    font-size: 7vh;
+    margin: 2rem;
+    color: rgb(77, 77, 77);
 }
 
 .body {
@@ -22,11 +30,22 @@ header {
 .cityContainer {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-  }
+}
+
+.slideShow {
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.slideShow:hover {
+    cursor: grab;
+}
 
 .slideDiv {
-    height: 34vh;
+    display: flex;
+    height: 37vh;
     background-position: center;
     width: 100%;
     grid-column-start: 1;
@@ -34,43 +53,32 @@ header {
     grid-row-start: 1;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .cityTitle {
-    color: white;
-    width: 100%;
-    height: 100%;
-    background-color: hsla(0, 0%, 0%, 0.3);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: 2s;
-  }
-
-  .cityTitle:hover {
-    cursor: grab;
-    background-color: hsla(0, 0%, 0%, 0.1);
-  }
-
-  .cityTitle > h2 {
-    margin:auto;
-  }
-
-  .slide {
+.slide {
     display: hidden;
     opacity: 0;
     transition: opacity .7s ease;
-  }
+}
 
-  .visible {
-    display: block;
+.cityTitle > h2 {
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    text-shadow: 2px 2px #222222;
+}
+
+.visible {
+    display: flex;
     opacity: 100;
-  }
+}
 
-  .slideShow {
-    flex-basis: 50%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 100%;
+    margin: 0;
+    background: #222;
+    color: #fff;
+}

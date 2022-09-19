@@ -125,6 +125,7 @@ var countFunction = function(a) {
     }
 }
 
+
 // When any of the cityBlock divs are clicked
 // The city becomes set to the id of the div
 $(".slideShow").on('click', function (event) {
