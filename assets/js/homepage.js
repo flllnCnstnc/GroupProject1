@@ -56,8 +56,27 @@ var showSlides = function () {
 
 $(".cityBlock").on('click', function (event) {
     var city = this.id;
-    console.log(city);
-    localStorage.setItem("currentCity", JSON.stringify(this.id));
+
+    // Make value standardized for transport to local storage
+    var choppedStr = city.split('-')[0];
+    console.log(choppedStr);
+
+    var spaceStr = choppedStr.replaceAll('_', ' ');
+    console.log(spaceStr);
+
+    var toPascalCase = str =>
+    str.replace(/\w\S*/g, m => m.charAt(0).toUpperCase()
+        + m.substr(1).toLowerCase());
+
+    var finalCity = toPascalCase(spaceStr);
+    console.log(finalCity);
+
+    var currentCity = {
+        "city": finalCity
+    }
+
+
+    localStorage.setItem("currentCity", JSON.stringify(currentCity));
     event.preventDefault();
     location.href = "chosencity.html"
 });
