@@ -50,22 +50,10 @@ var countFunction = function(a) {
     }
 }
 
-var showSlides = function () {
-        $(function () {
-            $ds = $('.cityBlock div');
-            $ds.hide().eq(0).show();
-            setInterval(function(){
-                $ds.filter(':visible').fadeOut(function(){
-                    var $div = $(this).next('div');
-                    if ( $div.length == 0 ) {
-                        $ds.eq(0).fadeIn();
-                    } else {
-                        $div.fadeIn();
-                    }
-                });
-            }, 3000);
-        })
+function showSlides() {
+    console.log("slides");
 }
+
 
 
 

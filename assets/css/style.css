@@ -23,10 +23,17 @@ header {
 
 .cityBlock {
     flex-basis: 50%;
-    display: grid;
 }
 
 /* By default before slideshow function kicks in, all blocks are set to display: none*/
 .cityBlock > div {
-    height: 34vh;
+    height: 40vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
 }
