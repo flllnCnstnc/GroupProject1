@@ -25,13 +25,6 @@ header {
     text-align: center;
   }
 
-  .cityTitle {
-    z-index: 4;
-    color: white;
-    background-color:rgba(0, 0, 0, 0.404);
-  }
-
-
 .slideDiv {
     height: 34vh;
     background-position: center;
@@ -39,13 +32,35 @@ header {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    z-index: 2;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cityTitle {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+  }
+
+  .cityTitle:hover {
+    cursor: grab;
+    background-color: hsla(0, 0%, 0%, 0.1);
+  }
+
+  .cityTitle > h2 {
+    margin:auto;
   }
 
   .slide {
     display: hidden;
     opacity: 0;
-    transition: opacity 0.3s linear;
+    transition: opacity .7s ease;
   }
 
   .visible {
@@ -58,6 +73,4 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    align-items: center;
-    justify-content: center;
   }

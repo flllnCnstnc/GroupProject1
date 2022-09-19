@@ -48,7 +48,7 @@ var fetchImages = function (searchTerm) {
                 console.log(prettyTitle);
 
 
-                var newImg = $('<div class="slideDiv slide">'+ prettyTitle +'</div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
+                var newImg = $('<div class="slideDiv slide"><section class="cityTitle"><h2>'+ prettyTitle +'</h2></section></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
                 if (i === (1 || 6 || 11 || 16)) {
                     newImg.addClass('visible');
                 };
