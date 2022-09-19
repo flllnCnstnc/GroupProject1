@@ -26,6 +26,8 @@ $(document).ready(function () {
 });
 
 
+
+
 var fetchImages = function (searchTerm) {
     var URL = "https://pixabay.com/api/?key=" + API_KEY + "&q=" + encodeURIComponent(searchTerm) + "&per_page=5";
     var thisBlock = $('#' + searchTerm);
@@ -110,13 +112,11 @@ var countFunction = function(a) {
             }
         }
     }
-
 }
-
 
 // When any of the cityBlock divs are clicked
 // The city becomes set to the id of the div
-$(".cityBlock").on('click', function (event) {
+$(".slideShow").on('click', function (event) {
     var city = this.id;
 
     // Make value standardized for transport to local storage
