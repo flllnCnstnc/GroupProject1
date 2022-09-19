@@ -37,6 +37,7 @@ var cityObj = '.houston';
 
 var imgEl = document.querySelectorAll("img");
 var siteEl = document.querySelectorAll("a");
+var textEl = document.querySelectorAll("p");
 
 function updateToBoulder() {
   imgEl[0].setAttribute("src", "./assets/images/colorado-musicfestival.jpg");
@@ -49,6 +50,11 @@ function updateToBoulder() {
   siteEl[2].setAttribute("href", "https://www.bolderboulder.com/")
   siteEl[3].setAttribute("href", "https://www.wintercraftbeerfestival.com/")
   siteEl[4].setAttribute("href", "https://biff1.com/")
+  textEl[0].setAttribute("p", "Colorado Music Festival")
+  textEl[1].setAttribute("p", "Downtown Boulder Fall Fest")
+  textEl[2].setAttribute("p", "Bolder Boulder 10k Road Race")
+  textEl[3].setAttribute("p", "Winter Craft Beer Festival")
+  textEl[4].setAttribute("p", "Boulder International Film Festival")
 }
 
 function updateToLA() {
@@ -62,6 +68,11 @@ function updateToLA() {
   siteEl[2].setAttribute("href", "https://www.discoverlosangeles.com/event/2022/09/12/primetime-emmy-awards")
   siteEl[3].setAttribute("href", "https://www.hollywoodbowl.com/")
   siteEl[4].setAttribute("href", "https://www.broadwayinhollywood.com/venues/detail/pantagestheatre")
+  textEl[0].setAttribute("p", "LA Film Festival")
+  textEl[1].setAttribute("p", "The Grammys")
+  textEl[2].setAttribute("p", "The Emmys")
+  textEl[3].setAttribute("p", "Hollywood Bowl")
+  textEl[4].setAttribute("p", "Broadway")
 }
 
 function updateToChicago() {
@@ -75,6 +86,11 @@ function updateToChicago() {
   siteEl[2].setAttribute("href", "https://www.chicagoboatshow.com/")
   siteEl[3].setAttribute("href", "https://www.chicago.gov/city/en/depts/dca/supp")
   siteEl[4].setAttribute("href", "https://www.chicagomarathon.com/")
+  textEl[0].setAttribute("p", "Taste of Chicago")
+  textEl[1].setAttribute("p", "Lollapalooza")
+  textEl[2].setAttribute("p", "Chicago Boat Show")
+  textEl[3].setAttribute("p", "Chicago Air and Water Show")
+  textEl[4].setAttribute("p", "Chicago Marathon")
 }
 
 function updateToHouston() {
@@ -88,6 +104,11 @@ function updateToHouston() {
   siteEl[2].setAttribute("href", "https://www.artcolonyassociation.org/")
   siteEl[3].setAttribute("href", "https://www.comicpalooza.com/")
   siteEl[4].setAttribute("href", "https://www.thehoustonartcarparade.com/")
+  textEl[0].setAttribute("p", "Houston Livestock Show and Rodeo")
+  textEl[1].setAttribute("p", "Miller Outdoor Theater")
+  textEl[2].setAttribute("p", "Bayou City Art Festival")
+  textEl[3].setAttribute("p", "Comicpalooza")
+  textEl[4].setAttribute("p", "The Houston Art Car Parade")
 }
 
 function chooseCity() {
