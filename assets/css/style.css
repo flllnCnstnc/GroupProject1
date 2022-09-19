@@ -19,33 +19,33 @@ header {
     margin: 0;
 }
 
-.slideDiv {
-    height: 34vh;
-  }
-
-  .slide {
-    display: none;
-    transition: 4s;
-  }
-
-  .visible {
-    display: block;
-    width: 100%;
-    opacity: 100;
-  }
-
-  .visiblePaused {
-    display: block;
-    width: 100%;
-    opacity: 100;
-  }
-
-  .cityContainer {
+.cityContainer {
     display: flex;
     justify-content: space-between;
     text-align: center;
   }
 
+
+.slideDiv {
+    height: 34vh;
+    background-position: center;
+    width: 100%;
+  }
+
+  .slide {
+    display: hidden;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+
+  .visible {
+    display: block;
+    opacity: 100;
+  }
+
   .slideShow {
     flex-basis: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr
   }

@@ -55,10 +55,19 @@ var countFunction = function(a) {
     if (a === 20) {
         console.log("All the slides have been pulled")
         var slideShows = document.getElementsByClassName("slideShow");
+
         var slideShow1 = document.getElementById("boulder-colorado");
         var slideShow1Timer = slideShow1.getAttribute("data-slide-time")
+
         var slideShow2 = document.getElementById("houston-texas");
         var slideShow2Timer = slideShow2.getAttribute("data-slide-time")
+
+        var slideShow3 = document.getElementById("chicago-illinois");
+        var slideShow3Timer = slideShow3.getAttribute("data-slide-time")
+
+        var slideShow4 = document.getElementById("los_angeles-california");
+        var slideShow4Timer = slideShow4.getAttribute("data-slide-time")
+
 
         var timer1 = setInterval(function () {
             nextSlide("boulder-colorado")
@@ -68,7 +77,15 @@ var countFunction = function(a) {
             nextSlide("houston-texas")
         }, slideShow2Timer);
 
-        var slideShowsArray = ["boulder-colorado", "houston-texas"];
+        var timer3 = setInterval(function() {
+            nextSlide("chicago-illinois")
+        }, slideShow3Timer);
+
+        var timer4 = setInterval(function() {
+            nextSlide("los_angeles-california")
+        }, slideShow4Timer);
+
+        var slideShowsArray = ["boulder-colorado", "houston-texas", "chicago-illinois", "los_angeles-california"];
 
         // Finds all elements by class name and adds an event listener to each.
         function addListener(element, listenFor, functionToCall) {
@@ -92,27 +109,9 @@ var countFunction = function(a) {
                 slides[here].classList.add("visible");
             }
         }
-
-
-
-        addListener(slideShows, "mouseover", function() {
-            var lemon = this.getElementsByClassName("visible");
-            lemon[0].classList.add("visiblePaused");
-            lemon[0].classList.remove("visible");
-        })
-
-
-        addListener(slideShows, "mouseleave", function() {
-            var lemon = this.getElementsByClassName("visiblePaused");
-            lemon[0].classList.add("visible");
-            lemon[0].classList.remove("visiblePaused");
-        })
-
     }
 
 }
-
-
 
 
 // When any of the cityBlock divs are clicked
