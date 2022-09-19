@@ -35,30 +35,12 @@ var fetchImages = function (searchTerm) {
                 var imgURL = hit.largeImageURL;
                 var imgUser = hit.user
                 var pageURL = hit.pageURL
-                var newImg = {
-                    "aria-label": "Photo by: " + imgUser + " " + pageURL + "",
-                    "imgURL": imgURL
-                }
+                var newImg = $('<div class="slideDiv slide"></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
+                if (i === (1 || 6 || 11 || 16)) {
+                    newImg.addClass('visible');
+                };
+                thisBlock.append(newImg);
                 a++;
-
-                if (searchTerm === 'boulder-colorado') {
-                    boulder.push(newImg);
-                }
-
-                if (searchTerm === 'houston-texas') {
-                    houston.push(newImg);
-
-                }
-
-                if (searchTerm === 'chicago-illinois') {
-                    chicago.push(newImg);
-
-                }
-
-                if (searchTerm === 'los_angeles-california') {
-                    losAngeles.push(newImg);
-                }
-
                 countFunction(a);
         })
     else
@@ -72,25 +54,21 @@ var countFunction = function(a) {
     console.log("Pulling slide: " + a);
     if (a === 20) {
         console.log("All the slides have been pulled")
-        console.log(boulder);
-        console.log(houston);
-        console.log(chicago);
-        console.log(losAngeles);
         var slideShows = document.getElementsByClassName("slideShow");
-        var slideShow1 = document.getElementById("slideShow1");
+        var slideShow1 = document.getElementById("boulder-colorado");
         var slideShow1Timer = slideShow1.getAttribute("data-slide-time")
-        var slideShow2 = document.getElementById("slideShow2");
+        var slideShow2 = document.getElementById("houston-texas");
         var slideShow2Timer = slideShow2.getAttribute("data-slide-time")
 
         var timer1 = setInterval(function () {
-            nextSlide("slideShow1")
+            nextSlide("boulder-colorado")
         }, slideShow1Timer);
 
         var timer2 = setInterval(function() {
-            nextSlide("slideShow2")
+            nextSlide("houston-texas")
         }, slideShow2Timer);
 
-        var slideShowsArray = ["slideShow1", "slideShow2"];
+        var slideShowsArray = ["boulder-colorado", "houston-texas"];
 
         // Finds all elements by class name and adds an event listener to each.
         function addListener(element, listenFor, functionToCall) {
