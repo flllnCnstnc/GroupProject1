@@ -15,18 +15,38 @@ header {
     text-align: center;
 }
 
-.cityContainer {
+.body {
+    margin: 0;
+}
+
+.slideDiv {
+    background-color: #378B53;
+    height: 34vh;
+  }
+
+  .slide {
+    display: none;
+    transition: 4s;
+  }
+
+  .visible {
+    display: block;
+    width: 100%;
+    opacity: 100;
+  }
+
+  .visiblePaused {
+    display: block;
+    width: 100%;
+    opacity: 100;
+  }
+
+  .cityContainer {
     display: flex;
     justify-content: space-between;
     text-align: center;
-}
+  }
 
-.slideShow {
+  .slideShow {
     flex-basis: 50%;
-}
-
-/* By default before slideshow function kicks in, all blocks are set to display: none*/
-.slideShow > div {
-    height: 40vh;
-    background-position: center;
-}
+  }
