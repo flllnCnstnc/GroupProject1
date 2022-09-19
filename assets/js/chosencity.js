@@ -1,8 +1,7 @@
 
 let searchbtn= document. querySelector ("#btn")
 searchbtn.addEventListener('click', () => {
-    let long;
-    let lat;
+    
     let tempDescription = document.querySelector('.temp-description');
     let tempDegree = document.querySelector ('.temp-degree');
     let loctionTimezone = document.querySelector ('.location-timezone');
