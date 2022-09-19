@@ -37,7 +37,18 @@ var fetchImages = function (searchTerm) {
                 var imgURL = hit.largeImageURL;
                 var imgUser = hit.user
                 var pageURL = hit.pageURL
-                var newImg = $('<div class="slideDiv slide"></div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
+
+                // Beautify the search Term for displaying as text in the div
+                var blockTitle = searchTerm.replace('_', ' ').replace('-',', ')
+                console.log(blockTitle);
+                var toPascalCase = str =>
+                str.replace(/\w\S*/g, m => m.charAt(0).toUpperCase()
+                    + m.substr(1).toLowerCase());
+                var prettyTitle = toPascalCase(blockTitle);
+                console.log(prettyTitle);
+
+
+                var newImg = $('<div class="slideDiv slide">'+ prettyTitle +'</div>').attr('aria-label', "Photo by: " + imgUser + " " + pageURL + "").css("background-image", "url(" + imgURL + ")");
                 if (i === (1 || 6 || 11 || 16)) {
                     newImg.addClass('visible');
                 };

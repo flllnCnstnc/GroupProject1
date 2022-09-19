@@ -25,6 +25,12 @@ header {
     text-align: center;
   }
 
+  .cityTitle {
+    z-index: 4;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.404);
+  }
+
 
 .slideDiv {
     height: 34vh;
@@ -52,4 +58,6 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
   }
