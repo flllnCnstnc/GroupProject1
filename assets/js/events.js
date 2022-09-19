@@ -31,7 +31,7 @@ function showSlides(n) {
 //Help pull in the city variable
 var cityStr = localStorage.getItem('currentCity');
 //var cityObj = JSON.parse(cityStr)
-var cityObj = '.houston';
+var cityObj = 'houston';
 
 
 
@@ -39,7 +39,7 @@ var imgEl = document.querySelectorAll("img");
 var siteEl = document.querySelectorAll("a");
 var textEl = document.querySelectorAll("p");
 
-function updateToBoulder() {
+function updateBoulder() {
   imgEl[0].setAttribute("src", "./assets/images/colorado-musicfestival.jpg");
   imgEl[1].setAttribute("src", "./assets/images/boulder-fall-fest.jpg");
   imgEl[2].setAttribute("src", "./assets/images/bolderboulder.jpg");
@@ -57,7 +57,7 @@ function updateToBoulder() {
   textEl[4].setAttribute("p", "Boulder International Film Festival")
 }
 
-function updateToLA() {
+function updateLosAngeles() {
   imgEl[0].setAttribute("src", "./assets/images/la-film-festival.jpg");
   imgEl[1].setAttribute("src", "./assets/images/la-grammy.jpg");
   imgEl[2].setAttribute("src", "./assets/images/la-emmys.jpg");
@@ -75,7 +75,7 @@ function updateToLA() {
   textEl[4].setAttribute("p", "Broadway")
 }
 
-function updateToChicago() {
+function updateChicago() {
   imgEl[0].setAttribute("src", "./assets/images/taste-of-chicago.jpg");
   imgEl[1].setAttribute("src", "./assets/images/Lollapalooza-Chicago.jpg");
   imgEl[2].setAttribute("src", "./assets/images/chicago-boat-show.jpg");
@@ -93,7 +93,7 @@ function updateToChicago() {
   textEl[4].setAttribute("p", "Chicago Marathon")
 }
 
-function updateToHouston() {
+function updateHouston() {
   imgEl[0].setAttribute("src", "./assets/images/houston-rodeo.jpg")
   imgEl[1].setAttribute("src", "./assets/images/miller-theater.jpg")
   imgEl[2].setAttribute("src", "./assets/images/h-art-festival.jpg")
@@ -113,15 +113,15 @@ function updateToHouston() {
 
 function chooseCity() {
   if(cityObj === "houston") {
-    updateImageHouston();
+    updateHouston();
   }
   if(cityObj === "los-angeles") {
-    updateImageLosAngeles();
+    updateLosAngeles();
   }
   if(cityObj === "boulder") {
-    updateImageBoulder();
+    updateBoulder();
   }
   if(cityObj === "chicago") {
-    updateImageChicago();
+    updateChicago();
   }
 }
