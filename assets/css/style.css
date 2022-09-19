@@ -26,6 +26,7 @@ header {
     display: grid;
 }
 
+/* By default before slideshow function kicks in, all blocks are set to display: none*/
 .cityBlock > div {
     height: 34vh;
 }
