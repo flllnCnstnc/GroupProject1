@@ -1,4 +1,5 @@
 
+// Abdul-weather-widgets
 let searchbtn= document. querySelector ("#btn")
 searchbtn.addEventListener('click', () => {
     
@@ -30,7 +31,4 @@ searchbtn.addEventListener('click', () => {
 
     });
 
-    
-
-
-    
+// END Abdul-weather-widgets
