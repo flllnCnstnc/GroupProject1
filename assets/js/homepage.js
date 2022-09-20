@@ -1,6 +1,7 @@
+
+=======
 /**
  * HomePage JS for Travel Widget
- * Last Updated by Arielle Sept 17 2022
 **/
 
 // TODO FUTURE: Hide API key in a .env file for security
