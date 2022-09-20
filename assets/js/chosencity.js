@@ -1,4 +1,8 @@
-// Indicates what slide the carosel starts on
+var imgEl = document.querySelectorAll("img");
+var siteEl = document.querySelectorAll("a");
+var textEl = document.querySelectorAll("p");
+
+//Indicates what slide the carosel starts on
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -49,9 +53,9 @@ var selectCity = function() {
   }
 }
 
-var imgEl = document.querySelectorAll("img");
-var siteEl = document.querySelectorAll("a");
-var textEl = document.querySelectorAll("p");
+selectCity()
+
+
 
 function updateBoulder() {
   imgEl[0].setAttribute("src", "./assets/images/colorado-musicfestival.jpg");
