@@ -29,10 +29,9 @@ function showSlides(n) {
 }
 
 //Help pull in the city variable
-var cityStr = localStorage.getItem('currentCity');
-//var cityObj = JSON.parse(cityStr)
-var cityObj = 'houston';
-
+//var chooseCity = JSON.parse(localStorage.getItem("currentCity"));
+var chooseCity ="Houston"
+var city = chooseCity.city;
 
 
 var imgEl = document.querySelectorAll("img");
@@ -115,13 +114,13 @@ function chooseCity() {
   if(cityObj === "houston") {
     updateHouston();
   }
-  if(cityObj === "los-angeles") {
+  else if(cityObj === "los-angeles") {
     updateLosAngeles();
   }
-  if(cityObj === "boulder") {
+  else if(cityObj === "boulder") {
     updateBoulder();
   }
-  if(cityObj === "chicago") {
+  else if(cityObj === "chicago") {
     updateChicago();
   }
 }
