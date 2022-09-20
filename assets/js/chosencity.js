@@ -53,6 +53,7 @@ var selectCity = function() {
   }
 }
 
+//calls the selectCity function
 selectCity()
 
 
