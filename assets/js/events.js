@@ -34,6 +34,21 @@ var chooseCity ="Houston"
 var city = chooseCity.city;
 
 
+var selectCity = function() {
+  if(chooseCity === "Houston") {
+    updateHouston();
+  }
+  else if(chooseCity === "Los Angeles") {
+    updateLosAngeles();
+  }
+  else if(chooseCity === "Boulder") {
+    updateBoulder();
+  }
+  else if(chooseCity === "Chicago") {
+    updateChicago();
+  }
+}
+
 var imgEl = document.querySelectorAll("img");
 var siteEl = document.querySelectorAll("a");
 var textEl = document.querySelectorAll("p");
@@ -110,17 +125,3 @@ function updateHouston() {
   textEl[4].setAttribute("p", "The Houston Art Car Parade")
 }
 
-function chooseCity() {
-  if(cityObj === "houston") {
-    updateHouston();
-  }
-  else if(cityObj === "los-angeles") {
-    updateLosAngeles();
-  }
-  else if(cityObj === "boulder") {
-    updateBoulder();
-  }
-  else if(cityObj === "chicago") {
-    updateChicago();
-  }
-}
