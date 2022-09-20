@@ -1,8 +1,4 @@
-
-=======
-<!--Chosen City HTML
--->
-
+<!--HTML for Travel Site-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,16 +6,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title></title>
 </head>
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    START Arielle
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<header>
+    <h1 id = "cityTitle"></h1>
+</header>
+
 <body>
-    
-        
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    END Arielle
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    START Constance
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<!--Wrapped in own div to keep seperate from weather widget-->
+<div id ="activitiesSection">
+
     <main class="slideshow-container">
-        
-        <header>Events</header>
+
+<!--Changed from header to avoid conflict-->
+        <div id="eventsTitle">Events</div>
 
         <!-- Full-width images with number and caption text -->
         <section class="mySlides fade">
@@ -27,13 +44,13 @@
             <img src="" style="width:100%">
             <a href ="#" class="text"><p>Event Name</p></a>
         </section>
-            
+
         <section class="mySlides fade">
             <div class="numbertext">2 / 5</div>
             <img src="" style="width:100%">
             <a href ="#" class="text"><p>Event Name</p></a>
         </section>
-            
+
         <section class="mySlides fade">
             <div class="numbertext">3 / 5</div>
             <img src="" style="width:100%">
@@ -55,7 +72,6 @@
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
     </main>
     <br>
 
@@ -67,30 +83,51 @@
         <span class="dot" onclick="currentSlide(4)"></span>
         <span class="dot" onclick="currentSlide(5)"></span>
     </div>
-    
-    <script src ="./assets/js/events.js"></script>
-</body>
-</html>
-=======
-    <link src="stylesheet" href="assets/css/style.css">
-    <title></title>
-</head>
-<body>
-    <h1 id = "cityTitle"></h1>
-    <section id="activities-block">
-        <h2 id="activities-title"></h2>
-        <ul id ="activities-list">
-            <li>Activity 1</li>
-            <li>Activity 2</li>
-            <li>Activity 3</li>
-            <li>Activity 4</li>
-        </ul>
+</div>
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    END Constance
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
 
-    </section>
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    START Abdul
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+<div id ="weatherSection">
+    <section class="weather-widget">
+        <div class="location">
+            <h1 class="location-timezone">Timezone</h1>
+            <img class="icon">
+        </div>
+        <div class="temperature">
+            <div class="degree-section"></div>
+            <h2 class="temp-degree"> 34</h2>
+            <span>F</span>
+            <div class="temp-description">
+                Sunny
+            </div>
+        </div>
+        </section>
+
+        <h1 class="homepage-title">Where do you want to go?</h1>
+         <input type="textext" id="city"/>
+        <button id="btn">Search</button>
+
+        <div id="info"></div>
+
+</div>
+
+<!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    END Abdul
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="assets/js/chosencity.js"></script>
 </body>
 </html>
-

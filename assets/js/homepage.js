@@ -1,18 +1,11 @@
-
-=======
 /**
  * HomePage JS for Travel Widget
+ * Last Updated by Arielle Sept 17 2022
 **/
 
 // TODO FUTURE: Hide API key in a .env file for security
 var API_KEY = '16784074-a09f6dbadf96547b9a326b052';
 var a = 0;
-
-var boulder = [];
-var houston = [];
-var chicago = [];
-var losAngeles = [];
-
 
 // Fetches pictures for each given city search term
 
