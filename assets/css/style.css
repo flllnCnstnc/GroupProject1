@@ -6,6 +6,9 @@
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /**
@@ -30,11 +33,13 @@ header > h1 {
     color: rgb(77, 77, 77);
 }
 
+/*Two column layout for chosencity*/
 .cityContainer {
     display: flex;
     justify-content: space-between;
 }
 
+/*Use grid to force div and pictures into uniform size and overlap*/
 .slideShow {
     flex-basis: 50%;
     display: grid;
@@ -71,6 +76,7 @@ header > h1 {
     text-shadow: 2px 2px #222222;
 }
 
+/*Div not visble by default - opacity transformation between slides*/
 .visible {
     display: flex;
     opacity: 100;
@@ -88,6 +94,24 @@ header > h1 {
   flex: 1; /*Flex 1/2 of screen*/
 }
 
+/*Return to homepage button*/
+#return {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+#returnBtn {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 3vh;
+  padding: 1rem;
+}
+
+#returnBtn:hover {
+  background-color: #5f9ea0;
+  color: #fff;
+  cursor: grab;
+}
 footer {
     display: flex;
     justify-content: center;
