@@ -99,7 +99,7 @@ function updateBoulder() {
   siteEl[2].setAttribute("href", "https://www.bolderboulder.com/")
   siteEl[3].setAttribute("href", "https://www.wintercraftbeerfestival.com/")
   siteEl[4].setAttribute("href", "https://biff1.com/")
-  textEl[0].setAttribute("p", "Colorado Music Festival")
+  textEl[0].innerHTML = "Colorado Music Festival"
   textEl[1].setAttribute("p", "Downtown Boulder Fall Fest")
   textEl[2].setAttribute("p", "Bolder Boulder 10k Road Race")
   textEl[3].setAttribute("p", "Winter Craft Beer Festival")
