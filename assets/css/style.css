@@ -198,6 +198,7 @@ footer {
     .text {
     color: #fcf9f9;
     font-size: 30px;
+    text-shadow: 2px 2px #000000;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
