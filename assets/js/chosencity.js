@@ -31,8 +31,10 @@ var cityTitle = $('#cityTitle').text("Welcome to " + city);
  * START Constance
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-
-
+// I moved the variables to the top to avoid conflict
+var imgEl = document.querySelectorAll("img");
+var siteEl = document.querySelectorAll("a");
+var textEl = document.querySelectorAll("p");
 
 // Indicates what slide the carosel starts on
 let slideIndex = 1;
@@ -82,9 +84,9 @@ var selectCity = function() {
   }
 }
 
-var imgEl = document.querySelectorAll("img");
-var siteEl = document.querySelectorAll("a");
-var textEl = document.querySelectorAll("p");
+
+//Calling the selectCity function to work
+selectCity()
 
 function updateBoulder() {
   imgEl[0].setAttribute("src", "./assets/images/colorado-musicfestival.jpg");
