@@ -128,7 +128,7 @@ function updateChicago() {
   imgEl[0].setAttribute("src", "./assets/images/taste-of-chicago.jpg");
   imgEl[1].setAttribute("src", "./assets/images/Lollapalooza-Chicago.jpg");
   imgEl[2].setAttribute("src", "./assets/images/chicago-boat-show.jpg");
-  imgEl[3].setAttribute("src", "./assets/images/Air&WaterShow.jpg");
+  imgEl[3].setAttribute("src", "./assets/images/Air&WaterShow-chicago.jpg");
   imgEl[4].setAttribute("src", "./assets/images/chicago-marathon.jpg");
   siteEl[0].setAttribute("href", "https://www.chicago.gov/city/en/depts/dca/supp")
   siteEl[1].setAttribute("href", "https://www.lollapalooza.com/")
