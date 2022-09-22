@@ -100,10 +100,10 @@ function updateBoulder() {
   siteEl[3].setAttribute("href", "https://www.wintercraftbeerfestival.com/")
   siteEl[4].setAttribute("href", "https://biff1.com/")
   textEl[0].innerHTML = "Colorado Music Festival"
-  textEl[1].innerHTML = "Downtown Boulder Fall Fest")
-  textEl[2].innerHTML = "Bolder Boulder 10k Road Race")
-  textEl[3].innerHTML = "Winter Craft Beer Festival")
-  textEl[4].innerHTML = "Boulder International Film Festival")
+  textEl[1].innerHTML = "Downtown Boulder Fall Fest"
+  textEl[2].innerHTML = "Bolder Boulder 10k Road Race"
+  textEl[3].innerHTML = "Winter Craft Beer Festival"
+  textEl[4].innerHTML = "Boulder International Film Festival"
 }
 
 function updateLosAngeles() {
@@ -117,11 +117,11 @@ function updateLosAngeles() {
   siteEl[2].setAttribute("href", "https://www.discoverlosangeles.com/event/2022/09/12/primetime-emmy-awards")
   siteEl[3].setAttribute("href", "https://www.hollywoodbowl.com/")
   siteEl[4].setAttribute("href", "https://www.broadwayinhollywood.com/venues/detail/pantagestheatre")
-  textEl[0].innerHTML = "LA Film Festival")
-  textEl[1].innerHTML = "The Grammys")
-  textEl[2].innerHTML = "The Emmys")
-  textEl[3].innerHTML = "Hollywood Bowl")
-  textEl[4].innerHTML = "Broadway")
+  textEl[0].innerHTML = "LA Film Festival"
+  textEl[1].innerHTML = "The Grammys"
+  textEl[2].innerHTML = "The Emmys"
+  textEl[3].innerHTML = "Hollywood Bowl"
+  textEl[4].innerHTML = "Broadway"
 }
 
 function updateChicago() {
@@ -135,11 +135,11 @@ function updateChicago() {
   siteEl[2].setAttribute("href", "https://www.chicagoboatshow.com/")
   siteEl[3].setAttribute("href", "https://www.chicago.gov/city/en/depts/dca/supp")
   siteEl[4].setAttribute("href", "https://www.chicagomarathon.com/")
-  textEl[0].innerHTML = "Taste of Chicago")
-  textEl[1].innerHTML = "Lollapalooza")
-  textEl[2].innerHTML = "Chicago Boat Show")
-  textEl[3].innerHTML = "Chicago Air and Water Show")
-  textEl[4].innerHTML = "Chicago Marathon")
+  textEl[0].innerHTML = "Taste of Chicago"
+  textEl[1].innerHTML = "Lollapalooza"
+  textEl[2].innerHTML = "Chicago Boat Show"
+  textEl[3].innerHTML = "Chicago Air and Water Show"
+  textEl[4].innerHTML = "Chicago Marathon"
 }
 
 function updateHouston() {
@@ -153,11 +153,11 @@ function updateHouston() {
   siteEl[2].setAttribute("href", "https://www.artcolonyassociation.org/")
   siteEl[3].setAttribute("href", "https://www.comicpalooza.com/")
   siteEl[4].setAttribute("href", "https://www.thehoustonartcarparade.com/")
-  textEl[0].innerHTML = "Houston Livestock Show and Rodeo")
-  textEl[1].innerHTML = "Miller Outdoor Theater")
-  textEl[2].innerHTML = "Bayou City Art Festival")
-  textEl[3].innerHTML = "Comicpalooza")
-  textEl[4].innerHTML = "The Houston Art Car Parade")
+  textEl[0].innerHTML = "Houston Livestock Show and Rodeo"
+  textEl[1].innerHTML = "Miller Outdoor Theater"
+  textEl[2].innerHTML = "Bayou City Art Festival"
+  textEl[3].innerHTML = "Comicpalooza"
+  textEl[4].innerHTML = "The Houston Art Car Parade"
 }
 
 /**
