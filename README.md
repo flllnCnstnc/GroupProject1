@@ -50,6 +50,13 @@ Successes:
 - Arielle: Home Page
 - Coming together as a team to make a functional app!
 
+### Home Page
+![image](https://user-images.githubusercontent.com/73449635/191871032-0ba2537d-26db-4a8f-8504-3ced6f0821da.png)
+
+### Chosen City Page
+![image](https://user-images.githubusercontent.com/73449635/191871053-093af3de-4efc-43a6-8cb9-ae40c9392685.png)
+
+
 ## Directions for Future Development:
 
 - Implement an option for choosing the time of year to filter suggestions
