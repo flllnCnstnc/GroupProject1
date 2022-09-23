@@ -122,6 +122,10 @@ footer {
     color: #fff;
 }
 
+img {
+    border-radius: 20px;
+}
+
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * END Arielle
@@ -146,7 +150,6 @@ footer {
   align-items: center;
   margin: auto;
   font-family: sans-serif;
-  background: cadetblue;
 }
 
 /** weather widget */
